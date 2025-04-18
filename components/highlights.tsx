@@ -10,7 +10,7 @@ export default function Highlights() {
           <Briefcase className="text-teal-400 w-6 h-6 group-hover:scale-110 transition-transform" />
         </div>
         <div className="flex items-end">
-          <span className="text-4xl md:text-5xl font-bold text-white">48</span>
+          <span className="text-4xl md:text-5xl font-bold text-white">3</span>
           <span className="text-teal-300 ml-2 mb-1">proyectos</span>
         </div>
       </div>
@@ -18,11 +18,11 @@ export default function Highlights() {
       {/* Elemento mediano - Años de experiencia */}
       <div className="col-span-2 bg-gradient-to-br from-slate-900/90 to-slate-800/50 rounded-xl p-4 flex flex-col justify-between border border-slate-700/50 hover:border-teal-400/50 transition-all group">
         <div className="flex justify-between items-start">
-          <h3 className="text-lg font-bold text-slate-200">Experiencia</h3>
+          <h3 className="text-lg font-bold text-slate-200">Experiencia universitaria</h3>
           <Clock className="text-teal-400 w-5 h-5 group-hover:scale-110 transition-transform" />
         </div>
         <div className="flex items-end">
-          <span className="text-3xl font-bold text-white">5+</span>
+          <span className="text-3xl font-bold text-white">4</span>
           <span className="text-slate-300 ml-2 mb-0.5">años</span>
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function Highlights() {
           <Users className="text-teal-400 w-5 h-5 group-hover:scale-110 transition-transform" />
         </div>
         <div className="flex items-end">
-          <span className="text-3xl font-bold text-white">32</span>
+          <span className="text-3xl font-bold text-white">10</span>
           <span className="text-slate-300 ml-2 mb-0.5">clientes</span>
         </div>
       </div>
@@ -51,20 +51,11 @@ export default function Highlights() {
       </div>
 
       {/* Elemento pequeño - Premios */}
-      <div className="col-span-1 bg-gradient-to-br from-slate-900/90 to-slate-800/50 rounded-xl p-3 flex flex-col justify-between border border-slate-700/50 hover:border-teal-400/50 transition-all group">
-        <div className="flex justify-between items-start">
-          <h3 className="text-sm font-bold text-slate-200">Premios</h3>
-          <Trophy className="text-teal-400 w-4 h-4 group-hover:scale-110 transition-transform" />
-        </div>
-        <div>
-          <span className="text-2xl font-bold text-white">5</span>
-        </div>
-      </div>
 
       {/* Elemento pequeño - Café */}
       <div className="col-span-1 bg-gradient-to-br from-slate-900/90 to-slate-800/50 rounded-xl p-3 flex flex-col justify-between border border-slate-700/50 hover:border-teal-400/50 transition-all group">
         <div className="flex justify-between items-start">
-          <h3 className="text-sm font-bold text-slate-200">Café</h3>
+          <h3 className="text-sm font-bold text-slate-200">Coffee</h3>
           <Coffee className="text-teal-400 w-4 h-4 group-hover:scale-110 transition-transform" />
         </div>
         <div>
@@ -73,7 +64,7 @@ export default function Highlights() {
       </div>
 
       {/* Elemento pequeño - Rating */}
-      <div className="col-span-1 bg-gradient-to-br from-slate-900/90 to-slate-800/50 rounded-xl p-3 flex flex-col justify-between border border-slate-700/50 hover:border-teal-400/50 transition-all group">
+      <div className="col-span-2 bg-gradient-to-br from-slate-900/90 to-slate-800/50 rounded-xl p-3 flex flex-col justify-between border border-slate-700/50 hover:border-teal-400/50 transition-all group">
         <div className="flex justify-between items-start">
           <h3 className="text-sm font-bold text-slate-200">Rating</h3>
           <Star className="text-teal-400 w-4 h-4 group-hover:scale-110 transition-transform" />
@@ -83,6 +74,7 @@ export default function Highlights() {
           <span className="text-xs text-slate-300 ml-1">/5</span>
         </div>
       </div>
+      
 
       {/* Elemento mediano - Tecnologías */}
       <div className="col-span-4 bg-gradient-to-br from-teal-900/70 to-teal-700/40 rounded-xl p-4 flex flex-col justify-between border border-teal-800/50 hover:border-teal-400/50 transition-all group">

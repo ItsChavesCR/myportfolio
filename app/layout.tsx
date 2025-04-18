@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Portfolio - Desarrollador Front End",
+  title: "Aaron Chaves Baltodano",
   description: "Portfolio personal de desarrollador front end con experiencia en tecnologías modernas",
 }
 
@@ -17,9 +17,16 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="es" className="dark" suppressHydrationWarning>
+      <link rel="icon" type="image/svg+xml" href="/favicon.png" />
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          disableTransitionOnChange
+          storageKey="portfolio-theme"
+        >
           {children}
         </ThemeProvider>
       </body>

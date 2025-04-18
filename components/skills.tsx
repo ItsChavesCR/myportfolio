@@ -62,7 +62,7 @@ import {
                 const Icon = skill.icon
                 return (
                   <div key={skillIndex} className="flex flex-col items-center gap-2">
-                    <Icon className={`text-4xl ${skill.color} hover`} />
+                    <Icon className={`text-4xl ${skill.color} hover transform transition-transform duration-300 hover:scale-125 max-w-xs mx-auto`} />
                     <span className="text-sm text-slate-300">{skill.name}</span>
                   </div>
                 )
